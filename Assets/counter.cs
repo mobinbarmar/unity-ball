@@ -11,7 +11,7 @@ public class counter : MonoBehaviour
 
     public void count(){
         i++;
-        myText.text = "The number of clicks are: " + i;
+        myText.text =  i + "clicks";
         Debug.Log("Mamacita!");
     }
 }
